@@ -49,7 +49,7 @@ hr.star-primary {
 
 hr.star-light:after,
 hr.star-primary:after {
-    content: "\f005";
+    content: "\f11b";
     display: inline-block;
     position: relative;
     top: -.8em;
@@ -64,16 +64,16 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #{{ site.color.primary }};
+    background-color: #2E9CCA;
 }
 
 hr.star-primary {
-    border-color: #{{ site.color.secondary }};
+    border-color: #fff;
 }
 
 hr.star-primary:after {
-    color: #{{ site.color.secondary }};
-    background-color: #fff;
+    color: #fff;
+    background-color: #464866;
 }
 
 .img-centered {
@@ -182,7 +182,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #{{ site.color.primary }};
+    background: #2E9CCA;
 }
 
 @media(max-width:767px) {
@@ -336,7 +336,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #{{ site.color.secondary }};
+    background-color: #2E9CCA;
 }
 
 footer .footer-col {
@@ -345,7 +345,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #{{ site.color.secondary-dark }};
+    background-color: #29648A;
 }
 
 .btn-social {
@@ -445,9 +445,6 @@ footer .footer-below {
     transform: rotate(90deg);
 }
 
-.navbar-nav>.active>a {
-    background-color: #{{ site.color.secondary-dark }} !important;
-}
 
 /* Fix modal mouse wheel issues */
 /* https://github.com/twbs/bootstrap/issues/16297 */
